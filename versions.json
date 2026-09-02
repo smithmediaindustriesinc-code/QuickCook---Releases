@@ -1,35 +1,35 @@
 {
   "app": "QuickCook",
   "manifest_version": 1,
-  "updated_utc": "2026-09-02T00:00:00+00:00",
+  "updated_utc": "2026-09-02T22:15:00+00:00",
   "enterprise_grants_sheet_id": "",
   "versions": [
     {
       "version": "0.3.0",
-      "channel": "beta",
+      "channel": "stable",
       "date": "2026-09-02",
       "installer": "QuickCookSetup0.3.0.exe",
-      "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.3.0-preview/QuickCookSetup0.3.0.exe",
-      "sha256": "ea81a65919edee8ad686cfa9c194bfad8e52ff5346ad6f369ad888f35c4339ad",
-      "notes": "0.3.0 preview: version/dependency panel on every screen; check-for-updates actually works now (broken import) + clear result messages; completed orders no longer reappear; dropdowns clickable inside dialogs; enterprise grants on a self-owned auto-discovered sheet. New: logo/watermark, cookbook library (multiple cookbooks), order Start button, custom non-recipe order items + special requests, Details restructure, Google Form 'Show me how' walkthrough. Product-link pricing rebuilt for Walmart/Amazon/Kroger/Target/Costco/Sam's; Walmart search removed."
+      "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.3.0/QuickCookSetup0.3.0.exe",
+      "sha256": "70503b011cbc8200fb7133051c45b16689b9dae9e2e88b8ea1798ba0ab121577",
+      "notes": "0.3.0 stable. Themes + seasonal presets; cook-mode timers (pause/resume/restart, ring-and-hold), All-steps view, resume unfinished cooks; receipts to Drive folders; Google Form order intake with auto-poll + walkthrough; .qcr recipe export/import and a multi-cookbook library; multi-recipe & custom order items with special requests and a Start button; watermark/logo; version panel on every screen. Fixes: check-for-updates (was calling a missing module), completed orders reappearing, dropdown clicks inside dialogs, custom line prices, admin-tab lock, wheel-over-textbox, enterprise grants via a self-managed auto-discovered sheet."
     },
     {
       "version": "0.2.0",
-      "channel": "beta",
+      "channel": "stable",
       "date": "2026-09-01",
       "installer": "QuickCookSetup0.2.0.exe",
       "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.2.0-preview/QuickCookSetup0.2.0.exe",
       "sha256": "570d598bf7df4f161f076cb1e34fa7e1b2ea1c6e22b14f7f469ee9ae74f67560",
-      "notes": "0.2.0 preview: any-colour + seasonal themes; cook-mode timers (pause/resume/restart) that ring-and-hold, progress only while a timer runs, All-steps view, resume unfinished cooks; receipts saved to Google Drive folders; Google Form order intake with auto-poll; per-recipe .qcr export/import and a shared Drive Cookbook. Fixes: check-for-updates, scrollable dropdowns that save, custom line prices, new-ingredient Save button, admin-tab lock, wheel-over-textbox, 2nd-account Enterprise grant."
+      "notes": "Any-colour + seasonal themes; cook-mode timers (pause/resume/restart) that ring-and-hold, progress only while a timer runs, All-steps view, resume unfinished cooks; receipts saved to Google Drive folders; Google Form order intake with auto-poll; per-recipe .qcr export/import and a shared Drive Cookbook. Fixes: check-for-updates, scrollable dropdowns that save, custom line prices, new-ingredient Save button, admin-tab lock, wheel-over-textbox, 2nd-account Enterprise grant."
     },
     {
       "version": "0.1.0",
-      "channel": "beta",
+      "channel": "stable",
       "date": "2026-09-01",
       "installer": "QuickCookSetup0.1.0.exe",
       "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.1-beta/QuickCookSetup0.1.0.exe",
       "sha256": "f848466460fddff7a7942a9ecea1c54b1eb858a0fb7ff32e93898083c709b617",
-      "notes": "First preview. Rebuild 5: fixed the dialog/order-form crash (Tk attribute clash), opens maximized, fork+spoon icon; round-2 bug scan - sync-thread hardening, no more UI freezes on restore/update/sign-out, safe cross-device autosave, working history receipts."
+      "notes": "First release. Fixed the dialog/order-form crash (Tk attribute clash), opens maximized, fork+spoon icon; sync-thread hardening, no UI freezes on restore/update/sign-out, safe cross-device autosave, working history receipts."
     }
   ]
 }
