@@ -1,8 +1,17 @@
 {
   "app": "QuickCook",
   "manifest_version": 1,
-  "updated_utc": "2026-09-02T00:00:00+00:00",
+  "updated_utc": "2026-09-01T00:00:00+00:00",
   "versions": [
+    {
+      "version": "0.2.0",
+      "channel": "beta",
+      "date": "2026-09-01",
+      "installer": "QuickCookSetup0.2.0.exe",
+      "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.2.0-preview/QuickCookSetup0.2.0.exe",
+      "sha256": "570d598bf7df4f161f076cb1e34fa7e1b2ea1c6e22b14f7f469ee9ae74f67560",
+      "notes": "0.2.0 preview: any-colour + seasonal themes; cook-mode timers (pause/resume/restart) that ring-and-hold, progress only while a timer runs, All-steps view, resume unfinished cooks; receipts saved to Google Drive folders; Google Form order intake with auto-poll; per-recipe .qcr export/import and a shared Drive Cookbook. Fixes: check-for-updates, scrollable dropdowns that save, custom line prices, new-ingredient Save button, admin-tab lock, wheel-over-textbox, 2nd-account Enterprise grant."
+    },
     {
       "version": "0.1.0",
       "channel": "beta",
