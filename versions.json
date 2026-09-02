@@ -1,8 +1,18 @@
 {
   "app": "QuickCook",
   "manifest_version": 1,
-  "updated_utc": "2026-09-01T00:00:00+00:00",
+  "updated_utc": "2026-09-02T00:00:00+00:00",
+  "enterprise_grants_sheet_id": "",
   "versions": [
+    {
+      "version": "0.3.0",
+      "channel": "beta",
+      "date": "2026-09-02",
+      "installer": "QuickCookSetup0.3.0.exe",
+      "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.3.0-preview/QuickCookSetup0.3.0.exe",
+      "sha256": "ea81a65919edee8ad686cfa9c194bfad8e52ff5346ad6f369ad888f35c4339ad",
+      "notes": "0.3.0 preview: version/dependency panel on every screen; check-for-updates actually works now (broken import) + clear result messages; completed orders no longer reappear; dropdowns clickable inside dialogs; enterprise grants on a self-owned auto-discovered sheet. New: logo/watermark, cookbook library (multiple cookbooks), order Start button, custom non-recipe order items + special requests, Details restructure, Google Form 'Show me how' walkthrough. Product-link pricing rebuilt for Walmart/Amazon/Kroger/Target/Costco/Sam's; Walmart search removed."
+    },
     {
       "version": "0.2.0",
       "channel": "beta",
