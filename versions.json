@@ -1,9 +1,18 @@
 {
   "app": "QuickCook",
   "manifest_version": 1,
-  "updated_utc": "2026-09-02T22:15:00+00:00",
+  "updated_utc": "2026-09-02T23:30:00+00:00",
   "enterprise_grants_sheet_id": "",
   "versions": [
+    {
+      "version": "0.3.1",
+      "channel": "beta",
+      "date": "2026-09-02",
+      "installer": "QuickCookSetup0.3.1.exe",
+      "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.3.1-preview/QuickCookSetup0.3.1.exe",
+      "sha256": "b86286a37e406d81ad7c762de887bf7a22ced82ffc182c4626511ca8cf97bb82",
+      "notes": "0.3.1 preview: new Ingredients tab (see/add ingredients, set a global price per ingredient, override per-recipe). Ingredient prices now shown on every recipe row with their source. Product links are saved with the price and re-checked in the background on launch (+ per-row and Refresh-all buttons, Settings toggle). Negative-profit fixed: a live batch/yield-aware margin breakdown in the recipe editor (red when negative) + a break-even button; new-order rows show/edit the per-unit sell price and flag $0. Bug pass: recipes update in place on cloud pull, price-dialog cancel is non-mutating, form-import race, theme-change-during-edit."
+    },
     {
       "version": "0.3.0",
       "channel": "stable",
