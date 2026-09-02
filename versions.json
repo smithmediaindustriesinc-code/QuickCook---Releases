@@ -9,8 +9,8 @@
       "date": "2026-09-01",
       "installer": "QuickCookSetup0.1.0.exe",
       "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.1-beta/QuickCookSetup0.1.0.exe",
-      "sha256": "57e8e714ef924731793577a6d2cc6b7d1b30f680efa78acb2d56c8bd12882bd5",
-      "notes": "First preview. Rebuild 4: create-recipe crash fixed; fully in-window (no popups); Back-to-menu + Refresh; new icon; no-freeze sign-in/delete/thumbnail; DPAPI token encryption + toast notifications now actually bundled."
+      "sha256": "f848466460fddff7a7942a9ecea1c54b1eb858a0fb7ff32e93898083c709b617",
+      "notes": "First preview. Rebuild 5: fixed the dialog/order-form crash (Tk attribute clash), opens maximized, fork+spoon icon; round-2 bug scan - sync-thread hardening, no more UI freezes on restore/update/sign-out, safe cross-device autosave, working history receipts."
     }
   ]
 }
