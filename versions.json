@@ -2,5 +2,15 @@
   "app": "QuickCook",
   "manifest_version": 1,
   "updated_utc": "2026-09-02T00:00:00+00:00",
-  "versions": []
+  "versions": [
+    {
+      "version": "0.1.0",
+      "channel": "beta",
+      "date": "2026-09-01",
+      "installer": "QuickCookSetup0.1.0.exe",
+      "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.1-beta/QuickCookSetup0.1.0.exe",
+      "sha256": "da3b80aa6c1bb96d528c53f2094783b477c690b7421d5a3aad2d6998f83803e0",
+      "notes": "First preview: recipes, pricing, guided cook mode, enterprise orders + analytics."
+    }
+  ]
 }
