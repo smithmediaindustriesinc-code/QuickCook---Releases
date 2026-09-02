@@ -9,8 +9,8 @@
       "date": "2026-09-01",
       "installer": "QuickCookSetup0.1.0.exe",
       "url": "https://github.com/smithmediaindustriesinc-code/QuickCook---Releases/releases/download/v0.1-beta/QuickCookSetup0.1.0.exe",
-      "sha256": "22c6ec80a6faacbe5f7a949807686517e8a392985a39a4a7ea42207d4c53a20d",
-      "notes": "First preview: recipes, pricing, guided cook mode, enterprise orders + analytics. Rebuild 2: frozen resource-path fix + login-page update button."
+      "sha256": "c49604f71f9ff90b1032428b3a52b0189afd1264c3317d4b83a6cd393cf0411f",
+      "notes": "First preview: recipes, pricing, guided cook mode, enterprise orders + analytics. Rebuild 3: fixed the create-recipe conflict crash; everything is now in-window (no extra popups); Back-to-menu + Refresh buttons; new icon."
     }
   ]
 }
